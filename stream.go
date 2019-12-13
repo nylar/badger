@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger/pb"
-	"github.com/dgraph-io/badger/y"
+	"github.com/nylar/badger/pb"
+	"github.com/nylar/badger/y"
 	humanize "github.com/dustin/go-humanize"
 )
 

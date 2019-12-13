@@ -329,7 +329,7 @@ func TestPushValueLogLimit(t *testing.T) {
 	})
 }
 
-// Regression test for https://github.com/dgraph-io/badger/issues/830
+// Regression test for https://github.com/nylar/badger/issues/830
 func TestDiscardMapTooBig(t *testing.T) {
 	createDiscardStats := func() map[uint32]int64 {
 		stat := map[uint32]int64{}

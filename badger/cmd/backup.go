@@ -20,8 +20,8 @@ import (
 	"bufio"
 	"os"
 
-	"github.com/dgraph-io/badger"
-	"github.com/dgraph-io/badger/y"
+	"github.com/nylar/badger"
+	"github.com/nylar/badger/y"
 	"github.com/spf13/cobra"
 )
 

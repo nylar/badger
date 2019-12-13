@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger"
-	"github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/badger/y"
+	"github.com/nylar/badger"
+	"github.com/nylar/badger/options"
+	"github.com/nylar/badger/y"
 )
 
 var maxValue int64 = 10000000

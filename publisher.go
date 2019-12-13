@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/dgraph-io/badger/pb"
-	"github.com/dgraph-io/badger/y"
+	"github.com/nylar/badger/pb"
+	"github.com/nylar/badger/y"
 )
 
 type subscriber struct {
